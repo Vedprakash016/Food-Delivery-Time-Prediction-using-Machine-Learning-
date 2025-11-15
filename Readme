@@ -1,8 +1,7 @@
 🍕 Food Delivery Time Prediction Using Machine Learning
 
 🎯 Project Objective
-This project predicts food delivery time (in minutes) using machine learning by analysing
-factors such as distance, traffic, weather conditions, and delivery partner details.
+This project predicts food delivery time (in minutes) using machine learning by analysingfactors such as distance, traffic, weather conditions, and delivery partner details.
 Goal: Improve ETA accuracy for platforms like Zomato, Swiggy, UberEats.
 
 📂 Dataset Information
