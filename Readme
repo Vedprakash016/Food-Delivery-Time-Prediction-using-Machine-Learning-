@@ -1,10 +1,10 @@
-#🍕 Food Delivery Time Prediction Using Machine Learning
+🍕 Food Delivery Time Prediction Using Machine Learning
 
-##🎯 Project Objective
+🎯 Project Objective
 This project predicts food delivery time (in minutes) using machine learning by analysing factors such as distance, traffic, weather conditions, and delivery partner details.
 Goal: Improve ETA accuracy for platforms like Zomato, Swiggy, UberEats.
 
-##📂 Dataset Information
+📂 Dataset Information
 The dataset contains detailed records of food deliveries, including:
 Delivery partner information
 Restaurant and customer locations 
@@ -14,39 +14,35 @@ Number of deliveries in a trip
 Time-related features (hour, day, peak hour, festival status)
 Actual delivery time (target)
 
-##🧠 Machine Learning Pipeline
+🧠 Machine Learning Pipeline
 
-###1️⃣ Data Preprocessing
+1️⃣ Data Preprocessing
 Handled missing values
 Removed irrelevant ID columns
 Encoded categorical features
 
-
-###2️⃣ Feature Engineering
+2️⃣ Feature Engineering
 Calculated distance using coordinates
 Extracted order hour and day of week
 Added peak-hour and festival indicators
 
-
-###3️⃣ Exploratory Data Analysis (EDA)
+3️⃣ Exploratory Data Analysis (EDA)
 Weather vs Delivery Time
 Traffic vs Delivery Duration
 Distance vs Delivery Time
 Correlation Heatmap
 
-
-###4️⃣ Model Building
+4️⃣ Model Building
 Algorithms used:
 Linear Regression
 Random Forest Regressor
 
-
-###5️⃣ Evaluation Metrics
+5️⃣ Evaluation Metrics
 MAE
 RMSE
 R² Score
 
-##📊 Model Performance
+📊 Model Performance
 Model	MAE	RMSE	R² Score
 Linear Regression	5.1	6.2	0.68
 Random Forest	2.9	3.4	0.89
@@ -59,7 +55,7 @@ Distance and traffic play the biggest role in delivery duration
 Peak hours and festival days increase delays
 Random Forest handles non-linear patterns better than Linear Regression
 
-#🛠️ Technologies Used
+🛠️ Technologies Used
 Python
 Pandas, NumPy
 Matplotlib, Seaborn
@@ -67,12 +63,10 @@ Scikit-Learn
 Jupyter Notebook
 
 🚀 How to Run
-
 pip install -r requirements.txt
 jupyter notebook Food_Delivery_Model.ipynb
 
-#📁 Project Structure
-
+📁 Project Structure
 Food-Delivery-Time-Prediction/
 ├── train.csv
 ├── test.csv
@@ -80,25 +74,20 @@ Food-Delivery-Time-Prediction/
 ├── submission.csv
 └── README.md
 
-#🧠 Conclusion
-
+🧠 Conclusion
 Machine learning can efficiently predict delivery times, enabling food delivery apps to:
 Improve ETA accuracy
 Enhance customer satisfaction
 Plan routes efficiently
 Assign delivery partners smartly
-
-
 Final Accuracy: 0.89 (Random Forest)
 
-
-
-#🚀 Future Enhancements
+🚀 Future Enhancements
 Real-time traffic API integration
 Try XGBoost or Neural Networks
 Deploy using Streamlit or Flask
 
 
-##🤝 Author
+🤝 Author
 Ved Prakash , Deepak Vishwakarma , Amar Yadav
 B.Tech CSE (Data Science & AI)
